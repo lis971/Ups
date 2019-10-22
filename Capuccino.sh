@@ -1,35 +1,35 @@
 #!/usr/bin/env bash
 
-# Autor: Lissandro
-# Descrição: Um script para automatizar as atualizações dos programas/pacotes apt, snap, flatpak e remover pacotes que já não são utilizados pelo sistema.
-# Version: 1.0
-# Licença: GPL2
+# Autor/Author: Lissandro
+# Descrição/Description: Automatizar atualizações de pacotes .Deb, Snap e Flatpak/Automate .Deb, Snap and Flatpak package upgrades.
+# Versão/Version: 1.1
+# Licença/License: GPL 2
 
-# Atualizar os repositórios apt
+# Atualizar os repositórios/Update repositories
 
 echo [Atualizar os repositórios apt...]
 sudo apt update
 
-# Atualizar pacotes .deb (apt) do sistema
+# Atualizar pacotes .deb/Update .deb Packages
 
 echo "________________________________________
 [Atualizar pacotes já instalados...]"
 sudo apt dist-upgrade -y
 
-# Remover pacotes .deb desnecessários
+# Remover pacotes .deb desnecessários/Remove unnecessary .deb Packages
 
 echo "________________________________________
 [Remover pacotes desnecessários...]"
 
 sudo apt autoremove --purge -y
 
-# Atualizar pacotes snaps
+# Atualizar pacotes Snap/Upgrade Snap packages
 
 echo "________________________________________
 [Atualizar Snaps...]"
 sudo snap refresh
 
-# Atualizar pacotes flatpaks
+# Atualizar pacotes Flatpaks/Upgrade Flatpak packages
 
 echo "________________________________________
 [Atualizar Flatpaks...]"
