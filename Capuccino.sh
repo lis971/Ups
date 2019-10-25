@@ -7,13 +7,13 @@
 
 # Atualizar os repositórios/Update repositories
 
-echo [Para atualizar os repositórios apt, digite sua senha...]
+echo [Atualizar os repositórios apt...]
 sudo apt update
 
 # Atualizar pacotes .deb/Update .deb Packages
 
 echo "________________________________________
-[Atualizar pacotes já instalados...]"
+[Atualizar pacotes .deb...]"
 sudo apt dist-upgrade -y
 
 # Remover pacotes .deb desnecessários/Remove unnecessary .deb Packages
