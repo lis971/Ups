@@ -7,7 +7,7 @@
 
 # Atualizar os repositórios/Update repositories
 
-echo [Atualizar os repositórios apt...]
+echo [Para atualizar os repositórios apt, digite sua senha...]
 sudo apt update
 
 # Atualizar pacotes .deb/Update .deb Packages
@@ -36,4 +36,5 @@ echo "________________________________________
 sudo flatpak update -y
 
 echo "________________________________________
-Pronto! :)"
+Pronto! 
+Atualizações finalizadas :)"
