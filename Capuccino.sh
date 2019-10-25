@@ -7,7 +7,7 @@
 
 # Atualizar os repositórios/Update repositories
 
-echo [Atualizar os repositórios apt...]
+echo [Atualizar os repositórios...]
 sudo apt update
 
 # Atualizar pacotes .deb/Update .deb Packages
