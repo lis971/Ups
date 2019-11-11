@@ -1,6 +1,6 @@
 # Capuccino.sh
 [Português Brasileiro]
-O Capuccino.sh é um simples script de atualização dos pacotes Snap, Flatpak e .Deb
+O Capuccino.sh é um script simples de atualização dos pacotes Snap, Flatpak e .Deb
 
 [Español]
 Capuccino.sh es un simple script de actualización de los paquetes Snap, Flatpak y .Deb
