@@ -7,7 +7,7 @@
 
 # Atualizar os repositórios/Update repositories
 
-echo [Atualizar os repositórios...]
+echo [Iniciando Capuccino...]
 sudo apt update
 
 # Atualizar pacotes .deb/Update .deb Packages
