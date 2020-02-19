@@ -1,4 +1,4 @@
-# Capuccino.sh
+# Updator
 [Português Brasileiro]
 O Updator é um script simples de atualização dos pacotes Snap, Flatpak e .Deb
 
