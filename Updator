@@ -2,12 +2,12 @@
 
 # Autor/Author: Lissandro
 # Descrição/Description: Automatizar atualizações de pacotes .Deb, Snap e Flatpak/Automate .Deb, Snap and Flatpak package upgrades.
-# Versão/Version: 1.1
+# Versão/Version: 2.0
 # Licença/License: GPL 2
 
 # Atualizar os repositórios/Update repositories
 
-echo [Iniciando Capuccino...]
+echo [Iniciando Updator...]
 sudo apt update
 
 # Atualizar pacotes .deb/Update .deb Packages
