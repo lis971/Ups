@@ -9,7 +9,9 @@ sudo cp updator /bin
 
 # Dar permissão para o "updator" ser executado
 
-sudo chmod+ /bin/updator
+echo "dar permissão de execução para 'updator'"
+
+sudo chmod +x /bin/updator
 
 # Finalizando o processo
 
