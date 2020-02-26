@@ -20,4 +20,5 @@ The Updator is a simple upgrade script for Snap, Flatpak and .Deb packages.
 **How do I use it?**
 
 Run the script `Install.sh` to install `Updator`. Then just run the `updator` command in the terminal to use it.
+
 **P.S.** Before you run `Install.sh`, give execution permission with `sudo chmod +x Install.sh`
