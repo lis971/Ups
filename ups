@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+# Autor/Author: Lissandro
+# Descrição: Automatizar atualizações dos pacotes .Deb, Snap e Flatpak / Automate .Deb, Snap and Flatpak package upgrades
+# Version: 3.0
+# License: GPL 2
+
+# Atualizar os repositórios / Update repositories
+
+echo [Iniciando Ups...]
+sudo apt update
+
+# Atualizar pacotes .deb / Update .deb Packages
+
+echo "[Atualizar pacotes .deb...]"
+sudo apt dist-upgrade -y
+
+# Remover pacotes .deb desnecessários / Remove unnecessary .deb Packages
+
+echo "[Remover pacotes desnecessários...]"
+
+sudo apt autoremove --purge -y
+
+# Atualizar pacotes Snap / Upgrade Snap packages
+
+echo "[Atualizar Snaps...]"
+sudo snap refresh
+
+# Atualizar pacotes Flatpaks / Upgrade Flatpak packages
+
+echo "[Atualizar Flatpaks...]"
+sudo flatpak update -y
+
+# Finalizando / Ending
+
+echo "Pronto! 
+Atualizações finalizadas :)"
