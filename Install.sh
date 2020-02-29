@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
-# Instalar "updator"
-echo [Iniciando instalação de updator]
+# Instalar "ups"
+echo [Iniciando instalação de ups]
 
-# Copiar "updator" para o diretório /bin
+# Copiar "ups" para o diretório /bin
 
-sudo cp updator /bin
+echo "[Copiando 'ups' para /bin]"
+sudo cp ups /bin
 
-# Dar permissão para o "updator" ser executado
+# Dar permissão para o "ups" ser executado
 
-echo "dar permissão de execução para 'updator'"
+echo "[Dar permissão de execução para 'ups']"
 
-sudo chmod +x /bin/updator
+sudo chmod +x /bin/ups
 
 # Finalizando o processo
 
-echo "Pronto :)"
+echo "Pronto :)
+Para executar o script, digite ups no terminal..."
