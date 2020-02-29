@@ -12,27 +12,27 @@ sudo apt update
 
 # Atualizar pacotes .deb / Update .deb Packages
 
-echo "[Atualizar pacotes .deb...
-                                ]"
+echo "[Atualizar pacotes .deb...]
+                                "
 sudo apt dist-upgrade -y
 
 # Remover pacotes .deb desnecessários / Remove unnecessary .deb Packages
 
-echo "[Remover pacotes desnecessários...
-                                        ]"
+echo "[Remover pacotes desnecessários...]
+                                        "
 
 sudo apt autoremove --purge -y
 
 # Atualizar pacotes Snap / Upgrade Snap packages
 
-echo "[Atualizar Snaps...
-                          ]"
+echo "[Atualizar Snaps...]
+                          "
 sudo snap refresh
 
 # Atualizar pacotes Flatpaks / Upgrade Flatpak packages
 
-echo "[Atualizar Flatpaks...
-                            ]"
+echo "[Atualizar Flatpaks...]
+                            "
 sudo flatpak update -y
 
 # Finalizando / Ending
