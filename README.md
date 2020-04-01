@@ -9,7 +9,7 @@ O Ups é um script simples de atualização dos pacotes Snap, Flatpak e .Deb
 
 Execute o script `Install.sh` para instalar o Ups, depois basta rodar o comando `ups` no terminal para utilizá-lo.
 
-**Obs:** Antes de executar o `Install.sh`, dê permissão de execução com o comando `sudo chmod +x Install.sh`
+**Obs:** Antes de executar o `Install.sh`, dê permissão de execução com o comando `sudo chmod a+x Install.sh`
 _____________________________________________________________________________________________________________________________
  
 **[EN]**
@@ -22,4 +22,4 @@ The Ups is a simple upgrade script for Snap, Flatpak and .Deb packages.
 
 Run the script `Install.sh` to install Ups. Then just run the `ups` command in the terminal to use it.
 
-**P.S.** Before you run `Install.sh`, give execution permission with `sudo chmod +x Install.sh`
+**P.S.** Before you run `Install.sh`, give execution permission with `sudo chmod a+x Install.sh`
