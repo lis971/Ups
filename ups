@@ -1,42 +1,43 @@
-#!/usr/bin/env bash
+function ups(){
 
-# Autor: Lissandro
-# Descrição: Automatizar atualizações dos pacotes .Deb, Snap e Flatpak
-# Version: 3.0
-# License: GPL 2
+  # Autor: Lissandro
+  # Descrição: Automatizar atualizações dos pacotes .Deb, Snap e Flatpak
+  # Version: 3.0
+  # License: GPL 2
 
-# Atualizar os repositórios
+  # Atualizar os repositórios
 
-echo [Iniciando Ups...]
-sudo apt update
+  echo [Iniciando Ups...]
+  sudo apt update
 
-# Atualizar pacotes .deb 
+  # Atualizar pacotes .deb 
+ 
+  echo "                      
+  [Atualizar pacotes .deb...]"
+  sudo apt dist-upgrade -y
 
-echo "                      
-[Atualizar pacotes .deb...]"
-sudo apt dist-upgrade -y
+  # Remover pacotes desnecessários
 
-# Remover pacotes desnecessários
+  echo "                              
+  [Remover pacotes desnecessários...]"
 
-echo "                              
-[Remover pacotes desnecessários...]"
+  sudo apt autoremove --purge -y
 
-sudo apt autoremove --purge -y
+  # Atualizar pacotes Snap
 
-# Atualizar pacotes Snap
+  echo "                
+  [Atualizar Snaps...]"
+  sudo snap refresh
 
-echo "                
-[Atualizar Snaps...]"
-sudo snap refresh
+  # Atualizar pacotes Flatpaks
 
-# Atualizar pacotes Flatpaks
+  echo "                  
+  [Atualizar Flatpaks...]"
+  sudo flatpak update -y
 
-echo "                  
-[Atualizar Flatpaks...]"
-sudo flatpak update -y
+  # Finalizando
 
-# Finalizando
-
-echo "                    
-Pronto! 
-Atualizações finalizadas :)"
+  echo "                    
+  Pronto! 
+  Atualizações finalizadas :)"
+}
