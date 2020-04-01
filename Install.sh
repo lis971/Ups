@@ -12,7 +12,7 @@ sudo cp ups /bin
 
 echo "[Dar permissão de execução para 'ups']"
 
-sudo chmod +x /bin/ups
+sudo chmod a+x /bin/ups
 
 # Finalizando o processo
 
