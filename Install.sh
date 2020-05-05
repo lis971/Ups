@@ -17,4 +17,4 @@ sudo chmod a+x /bin/ups
 # Finalizando o processo
 
 echo "Pronto :)
-Para executar o script, digite ups no terminal..."
+Para executar, digite ups no terminal..."
