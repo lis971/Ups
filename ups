@@ -25,9 +25,9 @@ sudo apt autoremove --purge -y
 
 # Atualizar pacotes Snap
 
-echo "                
-[Atualizar Snaps...]"
-sudo snap refresh
+#echo "                
+#[Atualizar Snaps...]"
+#sudo snap refresh
 
 # Atualizar pacotes Flatpaks
 
